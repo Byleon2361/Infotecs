@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++20 -Wall -Wextra -Ilib -fPIC
+CXXFLAGS = -std=c++20 -Wall -g -O0 -Wextra -Ilib -fPIC
 
 SRC_DIR = src
 OBJ_DIR = obj
