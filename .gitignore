@@ -1,0 +1,6 @@
+*.o
+*.d
+*.a
+*.so
+prog1
+prog2
