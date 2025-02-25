@@ -1,5 +1,7 @@
 #include "lib.hpp"
 #include <algorithm>
+namespace myLib
+{
 void sort(std::string& str)
 {
     std::sort(str.begin(), str.end(), [](char a, char b) { return a > b; });
@@ -29,7 +31,7 @@ int sum(std::string& str)
 }
 int count(std::string& str)
 {
-    if (str.size() < 2) return 1;
-    if (str.size() % 32 == 0) return 1;
+    if ((str.size() > 2) && (stoi(str))) return 1;
     return 0;
 }
+}  // namespace myLib
